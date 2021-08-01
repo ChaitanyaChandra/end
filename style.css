@@ -85,14 +85,3 @@ input:checked ~ .okglass h2 {
 
 @keyframes unblur { to { -webkit-filter: blur(0); } }
 @keyframes blur { to { -webkit-filter: blur(5px); } }
-
-* {
-    padding: 0;
-    margin: 0;
-}
-#c {
-    width: 100%;
-    height: 100%;
-    display: block;
-    -webkit-transform: translateZ(0)
-}
